@@ -1,0 +1,475 @@
+@import url("reset.css");
+
+@font-face {
+    font-family: 'exo_2.0semi_bold';
+    src: url('../fonts/Exo2.0-SemiBold-webfont.eot');
+    src: url('../fonts/Exo2.0-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2.0-SemiBold-webfont.woff') format('woff'),
+         url('../fonts/Exo2.0-SemiBold-webfont.ttf') format('truetype'),
+         url('../fonts/Exo2.0-SemiBold-webfont.svg#exo_2.0semi_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exo_2.0medium';
+    src: url('../fonts/Exo2.0-Medium-webfont.eot');
+    src: url('../fonts/Exo2.0-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2.0-Medium-webfont.woff') format('woff'),
+         url('../fonts/Exo2.0-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Exo2.0-Medium-webfont.svg#exo_2.0medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exo_2.0regular';
+    src: url('../fonts/Exo2.0-Regular-webfont.eot');
+    src: url('../fonts/Exo2.0-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2.0-Regular-webfont.woff') format('woff'),
+         url('../fonts/Exo2.0-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Exo2.0-Regular-webfont.svg#exo_2.0regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'exo_2.0light';
+    src: url('../fonts/Exo2.0-Light-webfont.eot');
+    src: url('../fonts/Exo2.0-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2.0-Light-webfont.woff') format('woff'),
+         url('../fonts/Exo2.0-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Exo2.0-Light-webfont.svg#exo_2.0light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-size: 62.5%;
+}
+
+.header{
+    background: url(../img/header-bg.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.top-line{
+    background: rgba(232,232,232,0.5);
+    margin-bottom: 40px;
+    padding: 10px 0 5px;
+}
+
+.top-line .row{
+    margin: 0;
+}
+
+.menu{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.menu li{
+    display: inline;
+    font-family: 'exo_2.0medium';
+    font-size: 200%;
+    text-transform: uppercase;
+    margin: 0 2%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #1f2b38;
+}
+
+.menu a:hover{
+    color: #ffffff;
+}
+
+.contact-info span{
+    display: block;
+    font-size: 230%;
+    font-family: 'exo_2.0medium';
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: right;
+}
+
+.banner{
+    margin: 0;
+}
+
+h1{
+    font-size: 500%;
+    font-family: 'exo_2.0semi_bold';
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.header-text{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 300%;
+    font-family: 'exo_2.0medium';
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.field{
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 25px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    font-size: 200%;
+    line-height: 1.2;
+    font-family: 'exo_2.0regular';
+    color: #fff;
+}
+
+.send{
+    width: 100%;
+    padding: 9px 0;
+    border: none;
+    border-radius: 3px;
+    background: #ff665e;
+    background: -webkit-linear-gradient(#ff665e, #ff665e);
+    background: -o-linear-gradient(#ff665e, #ff665e);
+    background: linear-gradient(#ff665e, #ff665e);
+    font-size: 200%;
+    line-height: 1.2;
+    font-family: 'exo_2.0light';
+    text-transform: uppercase;
+    color: #ffffff;
+    vertical-align: top;
+    text-align: center;
+}
+
+.send:hover{
+    opacity: 0.9;
+}
+
+h2{
+    margin: 20px 0 20px;
+    font-size: 500%;
+    font-family: 'exo_2.0medium';
+    text-transform: uppercase;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.line{
+    display: block;
+    margin: 0 auto 40px;
+    width: 300px;
+    height: 1px;
+}
+
+.blue{
+    background: #0099cc;
+}
+
+.red{
+    background: #ff3333;
+}
+
+.sell-points{
+    text-align: center;
+}
+
+.sell-points p{
+    width: 80%;
+    margin:0 auto 20px;
+    font-size: 200%;
+    line-height: 1.2;
+    font-family: 'exo_2.0regular';
+    color: #2c3e50;
+}
+
+.callback{
+    margin: 30px 0 40px;
+    padding: 20px 20px 0;
+    background: url(../img/header-bg.jpg) left bottom no-repeat;
+    border-radius: 3px;
+}
+
+.callback .send{
+    margin-bottom: 25px;
+}
+
+.server-type{
+    width: 100%;
+    min-width: 340px;
+    height: 560px;
+    display: inline-block;
+    padding: 25px;
+    margin-bottom: 40px;
+    border: 2px solid #cccccc;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.server-type img{
+    width: 80%;
+    max-width: 265px;
+}
+
+.server-type .line{
+    margin: 20px auto;
+}
+
+#fields{
+    width: 500px;
+    text-align: center;
+}
+
+.popup .send{
+    padding: 9px 10px;
+    
+}
+
+.popup .field{
+    width: 230px;
+    border: 1px solid #A9A9A9;
+    margin-right: 30px;
+    color: #A9A9A9;
+}
+
+h3{
+    font-size: 250%;
+    font-family: 'exo_2.0medium';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.server-type p{
+    font-family: 'exo_2.0regular';
+    font-size: 200%;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    min-height: 140px;
+    text-align: center;
+}
+
+.request{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 200%;
+    font-family: 'exo_2.0medium';
+    background: #1fa6e7;
+    background: -webkit-linear-gradient(#028bcd, #1fa6e7);
+    background: -o-linear-gradient(#028bcd, #1fa6e7);
+    background: linear-gradient(#028bcd, #1fa6e7);
+    padding: 10px 10px 12px;
+    border-radius: 3px;
+    line-height: 1;
+}
+
+.request:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.problem{
+    font-size: 350%;
+    color: #2c3e50;
+    font-family: 'exo_2.0light';
+    line-height: 1.2;
+}
+
+.problem li{
+    padding: 0 0 0 100px;
+    margin-bottom: 40px;
+    min-height: 61px;
+}
+
+.money{background: url("../img/triangular-money.png") left center no-repeat;}
+.clock{background: url("../img/triangular-clock.png") left center no-repeat;}
+.network{background: url("../img/triangular-network.png") left center no-repeat;}
+.lock{background: url("../img/triangular-folder.png") left center no-repeat;}
+
+.howto{
+    text-align: center;
+    padding: 0 20px;
+    font-size: 230%;
+    font-family: 'exo_2.0light';
+    color: #2c3e50;
+}
+
+.howto p{
+    width: 90%;
+    margin: 20px auto 20px;
+}
+
+.contact{
+    text-align: center;
+    color: #2c3e50;
+    font-family: 'exo_2.0regular';
+    font-size: 240%;
+    line-height: 1.5;
+}
+
+.map{
+    margin-top: 40px;
+}
+
+
+.thank{
+    font-family: 'exo_2.0regular';
+    background: url(../img/thank-bg.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.thank h1{
+    font-size: 350%;
+    margin: 40px 0 25px;
+}
+
+.thank p{
+    font-size: 250%;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.catalog{
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    font-size: 200%;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    }
+
+.catalog:hover{
+    background: rgba(255,255,255, 0.1);
+}
+
+.back{
+    font-size: 160%;
+    color: #ffffff; 
+}
+
+.back:hover{
+    text-decoration: none;
+}
+
+
+
+/* @media */
+
+@media screen and (max-width: 1380px){
+    .feedback{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .contact-info span{
+        font-size: 200%;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .menu li{
+        font-size: 180%;
+    }
+    
+    .contact-info span{
+        font-size: 200%;
+        
+    }
+    
+    .server-type p{
+        font-size: 180%;
+    }
+    
+    .problem{
+        font-size: 300%;
+    }
+    
+    .howto{
+        font-size: 210%;
+    }
+    
+    .contact{
+        font-size: 200%;
+    }
+    
+    .contact-block .line{
+        margin-bottom: 20px;
+    }
+    
+    .map{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        text-align: center;
+    }
+    
+    .menu{
+        text-align: center;
+        margin: 10px 0 0;
+    }
+    
+    .menu li{
+        font-size: 170%;
+    }
+    
+    h1, h2{
+        font-size: 460%;
+    }
+    
+    .header-text{
+        font-size: 260%;
+    }
+    
+    .sell-points p{
+        width: 70%;
+    }
+    
+    .server-type{
+        height: auto;
+    }
+    
+    .server-type p{
+        font-size: 180%;
+        min-height: 0;
+    }
+    
+    .problem{
+        font-size: 250%;
+    }
+    
+    .howto{
+        font-size: 210%;
+    }
+    
+    .contact{
+        font-size: 180%;
+    }
+    
+    .contact-block .line{
+        margin-bottom: 20px;
+    }
+    
+    .map{
+        margin-top: 20px;
+    }
+}
+

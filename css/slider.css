@@ -1,0 +1,112 @@
+/* -- slider -- */
+
+#slider-wrap, #slider-wrap2{ /* Оболочка слайдера и кнопок */
+    width:100%;
+	margin:0 auto;
+    }
+	
+/*
+.slider-head{
+	font-size:200%;
+	line-height:1.2;
+	margin:15px 0 20px;
+	}
+*/
+	
+#slider, #slider2{ /* Оболочка слайдера */
+    width:100%;
+    height:350px;
+    position:relative;
+	}
+
+.slide, .slide2{ /* Слайд */
+    width:100%;
+    height:100%;
+	margin:0 60px;
+    }
+
+
+.sli-links{ /* Кнопки смены слайдов */
+    margin-top:10px;
+    text-align:center;}
+.sli-links .control-slide{
+    margin:2px;
+    display:inline-block;
+    width:16px;
+    height:16px;
+    overflow:hidden;
+    text-indent:-9999px;
+    background:url(radioBg.png) center bottom no-repeat;}
+.sli-links .control-slide:hover{
+    cursor:pointer;
+    background-position:center center;}
+.sli-links .control-slide.active{
+    background-position:center top;}
+
+#prewbutton, #nextbutton{ /* Ссылка "Следующий" и "Педыдущий" */
+    display:block;
+    width:28px;
+    height:100%;
+    position:absolute;
+    top:0;
+    overflow:hidden;
+    text-indent:-999px;
+    background:url(../img/arrow.png) left center no-repeat;
+    opacity:0.8;
+    z-index:3;
+    outline:none !important;}
+#prewbutton{left:0px;}
+#nextbutton{
+    right:0px;
+    background:url(../img/arrow.png) right center no-repeat;}
+#prewbutton:hover, #nextbutton:hover{
+    opacity:1;}	
+
+
+#prewbutton2, #nextbutton2{ /* Ссылка "Следующий" и "Педыдущий" */
+    display:block;
+    width:28px;
+    height:100%;
+    position:absolute;
+    top:0;
+    overflow:hidden;
+    text-indent:-999px;
+    background:url(../img/arrow.png) left center no-repeat;
+    opacity:0.8;
+    z-index:3;
+    outline:none !important;}
+#prewbutton2{left:0px;}
+#nextbutton2{
+    right:0px;
+    background:url(../img/arrow.png) right center no-repeat;}
+#prewbutton2:hover, #nextbutton2:hover{
+    opacity:1;}	
+
+	
+.slide-text{
+/*
+    width: 55%;
+	display:inline-block;
+	vertical-align:top;
+	padding:0 30px;
+*/
+	}
+
+.slide-text p{
+    font-family: 'exo_2.0regular';
+	color:#333333;
+	font-size:180%;
+	line-height:1.3;
+	}
+	
+.slide-text h3{
+	color:#333333;
+	font-size:250%;
+	}
+	
+p.model{
+	font-style:italic;
+	color:#4687f6;
+	}
+
+
